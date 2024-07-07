@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Listen your fav music </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="utility.css">
+    <script src="https://kit.fontawesome.com/1c81df433c.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <class class="left  bg-black">
+            <div class="home bg-grey rounded m2">
+                <div class="logo">
+                    <img class="invert" src="logo.svg" alt="">
+                </div>
+                <ul>
+                    <li> <a class="backhome" href="index.html"><i class="fa-solid fa-house"></i></a>Home</li>
+                    <li><i class="fa-solid fa-magnifying-glass"></i>Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded">
+                <div class="heading">
+                    <img class="invert" src="librarylogo.svg" alt="">
+                    <h2>Your Library</h2>
+                </div>
+                <div class="card-library">
+                    <div class="card1-lib">
+                        <h5 class="lib1-title">Your Playlist -</h5>
+                        <img src="lib-1-image.jpeg" class="lib1" alt=" ">
+                        <img src="lib-1-image2.jpg" class="lib1" alt=" ">
+                    </div>
+                    <div class="card2-lib">
+                        <h5 class="lib2-title">Your favourites -</h5>
+                        <img src="lib-2-image.jpg" class="lib1" alt=" ">
+                        <img src="lib-2-image-2.jpg" class="lib1" alt=" ">
+                    </div>
+                </div>
+                <div class="footer">
+                    <h4>Legal </h4>
+                    <h4>Safety & privacy </h4>
+                    <h4>Privacy Policy </h4>
+                    <h4>Cookies </h4>
+                    <h4>Accecibility </h4>
+                </div>
+            </div>
+        </class>
+        <div class="right bg-black">
+            <div class="header bg-black rounded ">
+                <div class="nav">
+                    <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#000000" fill="none">
+                            <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="#ffffff"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#000000" fill="none">
+                            <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="#ffffff"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <div class="button">
+                        <button class="sign">Sign Up</button>
+                        <button class="log">Log In </button>
+                    </div>
+                </div>
+            </div>
+            <div class="mainpage 2">
+                <h1 class="playlisthead">Top devotional songs </h1>
+                <div id="card-dev1" class="card-dev1">
+                    <div class="song1">
+                        <img src="/iconmuse.png" class="musiclogo" alt=" ">
+                        <div class="card-body">
+                            <h5 class="song1-title"> Hanuman Chalisa</h5>
+                            <p class="song1-text"> Artist - Kaal Bhairav | Graphic India</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="card-dev2" class="card-dev2">
+                    <div class="song1">
+                        <img src="/iconmuse.png" class="musiclogo" alt=" ">
+                        <div class="card-body">
+                            <h5 class="song1-title"> Kaal Ashtakam</h5>
+                            <p class="song2-text"> Artist - Sachet Parampara | T-Series</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- To repair this playbar -->
+                <div id="play-song" class="playbar">
+                    <img id="play" class="iconsong" src="/playsong.png" alt=" ">
+                    <img id="pause" class="iconsong" src="/pause-icon.png" alt=" ">
+                    
+                    <div class="slidecontainer">
+                        <div id="sliderpointer" class="slider"></div>
+                    </div>
+                </div>
+                <div class="right-footer">
+                    <div class="footer-1">
+                        <h1 class="company">Company <h2 class="element">About <h3 class="element">Jobs <h4
+                                        class="element">For the Record</h4>
+                                </h3>
+                            </h2>
+                        </h1>
+                    </div>
+                    <div class="footer-2">
+                        <h1 class="company">Communities <h2 class="element">Advertizers <h3 class="element">Devolopers
+                                    <h4 class="element">Vendors</h4>
+                                </h3>
+                            </h2>
+                        </h1>
+                    </div>
+                    <div class="footer-3">
+                        <h1 class="company">Links <h2 class="element">Support <h3 class="element">App </h3>
+                            </h2>
+                        </h1>
+                    </div>
+                    <div class="footer-4">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                </div>
+                <div class="line">
+                    <h1 class="dash">
+                        _________________________________
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script defer src="list.js"></script>
+</body>
+
+</html>

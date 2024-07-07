@@ -1,0 +1,126 @@
+.card-dev1 {
+    position: relative;
+    width: 45rem;
+    height: 4rem;
+    background-color: black;
+    border-radius: 26px;
+    padding-left: 10px;
+    background-image: linear-gradient(rgba(128, 128, 128, 0.249), black);
+}
+
+.playicon {
+    background-color: black;
+    width: 10px;
+    height: 4px;
+}
+
+.card-dev2 {
+    position: relative;
+    width: 45rem;
+    height: 4rem;
+    top: 10px;
+    background-color: black;
+    border-radius: 26px;
+    padding-left: 10px;
+    background-image: linear-gradient(rgba(128, 128, 128, 0.249), black);
+}
+
+.right-footer {
+    position: relative;
+    top: 45rem;
+}
+
+.line {
+    top: 55rem;
+}
+
+.iconsong {
+    position: relative;
+    left: 25rem;
+    top: 36px;
+    width: 32px;
+}
+
+.playbar {
+    background-color: black;
+    background-image: linear-gradient(rgb(29, 29, 173, 0.400), black);
+    width: 56.2rem;
+    height: 90px;
+    border-radius: 12px;
+    position: fixed;
+    left: 18.5rem;
+    top: 31.7rem;
+}
+
+.musiclogo {
+    position: relative;
+    width: 15px;
+    top: 24px;
+}
+
+.song1-title {
+    position: relative;
+    left: 27px;
+    bottom: 4px;
+    font-size: 15px;
+}
+
+.backhome {
+    color: aliceblue;
+    position: relative;
+    bottom: 5.5px;
+    right: 2px;
+}
+
+
+.song1-text {
+    position: relative;
+    color: grey;
+    bottom: 23px;
+    font-size: 15px;
+    left: 155px;
+}
+
+.song2-text {
+    position: relative;
+    color: grey;
+    bottom: 23px;
+    font-size: 15px;
+    left: 135px;
+}
+
+/* edit pause button */
+#pause {
+    
+    position: relative;
+    left: 24.8rem;
+    top: 30.5px;
+    width: 36px;
+    height: 36px;
+}
+
+
+
+.slidecontainer {
+    position: relative;
+    height: 4px;
+    bottom: 15px;
+    right: 2px;
+    width: 100%;
+    /* Width of the outside container */
+    background-color: gray;
+    border-radius: 45%;
+    cursor: pointer;
+}
+
+/* The slider itself */
+.slider{
+    width:7px;
+    height:7px;
+    position: relative;
+    
+    border-radius: 100%;
+    left: 0;
+    background-color: rgb(11, 11, 11);
+    cursor: pointer;
+}

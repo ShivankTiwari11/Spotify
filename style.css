@@ -1,0 +1,397 @@
+*{
+    margin: 3px;
+    padding: 0;
+    font: caption ;
+}
+body{
+    background-color: black;
+}
+.container{
+    border-radius: 10px;
+    display: flex;
+    height: 200vh;
+    width: 100%;
+}
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+.left{
+    border-radius: 13px;
+    position: fixed;
+    width: 270px;
+    height: 100vh;
+    padding: 10px;
+}
+.card-library{
+    background-color: black;
+    background-image: linear-gradient(rgba(128, 128, 128, 0.249),black);
+    border-radius: 17px;
+    width: 257px;
+    height: 125px;
+
+}
+.lib1-title{
+    position: relative;
+    top: 8px;
+    font-size: 15px;
+    padding-left: 10px;
+    font-weight: bold;
+
+}
+.lib1{
+    width: 5rem;
+    padding: 5px;
+    border-radius: 18px;
+    margin: 3px;
+}
+.card2-lib{
+    background-color: black;
+    background-image: linear-gradient(rgba(128, 128, 128, 0.249),black);
+    position: relative;
+    top: 10px;
+    right: 3px;
+    border-radius: 17px;
+    width: 257px;
+    height: 125px;
+}
+.lib2-title{
+    position: relative;
+    top: 8px;
+    font-size: 15px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.right{
+    position: absolute;
+    left: 18rem;
+    width: 70vm;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home ul li{
+    gap: 17px;
+    display: flex;
+    width: 17px;
+    list-style: none;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    font: caption;
+    
+}
+.button{
+    width: 11rem;
+    padding: 16px;
+    border-radius: 25px;
+}
+
+.devotion{
+    width: 11rem;
+    padding: 16px;
+    border-radius: 25px;
+}
+
+.party{
+    width: 11rem;
+    padding: 16px;
+    border-radius: 25px;
+}
+.lofi{
+    width: 11rem;
+    padding: 16px;
+    border-radius: 25px;
+}
+.year-top{
+    width: 11rem;
+    padding: 16px;
+    border-radius: 25px;
+
+}
+.card1-title {
+    position: relative;
+    bottom: 30px;
+    font-size: 20px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.card1-text{
+    position: relative ;
+    bottom: 17px;
+    font-size: 13px;
+    padding-left: 10px;
+    color: gray;
+    
+}
+.card2-title{
+    position: relative;
+    bottom: 30px;
+    font-size: 20px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.card2-text{
+    position: relative;
+    bottom: 17px;
+    font-size: 13px;
+    padding-left: 10px;
+    color: gray;
+    
+}
+.card3-title{
+    position: relative;     
+    bottom: 30px;
+    font-size: 20px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.card3-text{
+    position: relative;
+    bottom: 17px;
+    font-size: 13px;
+    padding-left: 10px;
+    color: gray;
+    
+}
+.card4-text{
+    position: relative ;
+    bottom: 17px;
+    font-size: 13px;
+    padding-left: 10px;
+    color: gray;
+   
+}
+.card4-title{
+    position: relative;
+    bottom: 30px;
+    font-size: 20px;
+    padding-left: 10px;
+    font-weight: bold;}
+
+
+.card1{
+    background-color: black;
+    background-image: linear-gradient(black,rgba(128, 128, 128, 0.208));
+    border-radius: 17px;
+    width: 214px;
+    height: 310px;
+    
+    
+}
+.card2{
+    background-color: black;
+    background-image: linear-gradient(black,rgba(128, 128, 128, 0.208));
+    border-radius: 17px;
+    width: 214px;
+    height: 310px;
+}
+.card3{
+    background-color: black;
+    background-image: linear-gradient(black,rgba(128, 128, 128, 0.208));
+    border-radius: 17px;
+    width: 214px;
+    height: 310px;
+}
+.card4{
+    background-color: black;
+    background-image: linear-gradient(black,rgba(128, 128, 128, 0.208));
+    border-radius: 17px;
+    width: 214px;
+    height: 310px;
+}
+.mainpage{
+    height: 70rem;
+    background-image: linear-gradient(rgba(255, 0, 255, 0.26),black);
+    border-radius: 10px;
+    padding-left: 20px;
+    
+}
+.cards-1{
+    display: flex;
+}
+.cards-2{
+    display: flex;
+
+}
+.artist-1{
+    background-color: black;
+    background-image: linear-gradient(black,rgba(0, 0, 255, 0.192));
+    border-radius: 17px;
+    width: 214px;
+    height: 310px;
+
+}
+.arjit{
+    width: 11rem;
+    padding: 16px;
+    border-radius: 25px;
+}
+
+.artist-2{
+    background-color: black;
+    background-image: linear-gradient(black,rgba(0, 0, 255, 0.192));
+    border-radius: 17px;
+    width: 214px;
+    height: 310px;
+
+}
+.shreya{
+    width: 11rem;
+    padding: 16px;
+    border-radius: 25px;
+}
+.artist-3{
+    background-color: black;
+    background-image: linear-gradient(black,rgba(0, 0, 255, 0.192));
+    border-radius: 17px;
+    width: 214px;
+    height: 310px;
+
+}
+.kk{
+    width: 11rem;
+    padding: 16px;
+    border-radius: 25px;
+}
+.artist-4{
+    background-color: black;
+    background-image: linear-gradient(black,rgba(0, 0, 255, 0.192));
+    border-radius: 17px;
+    width: 214px;
+    height: 310px;
+
+}
+.sonu{
+    width: 11rem;
+    padding: 16px;
+    border-radius: 25px;
+}
+.playlisthead{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+.heading-2{
+    font-size: 20px;
+    font-weight: bold;       
+    padding: 10px;
+}
+.home div{
+    padding: 10px;
+}
+
+.header *{
+    display: flex;
+    padding: 7px;
+}
+
+.sign{
+    color: white;
+    background-color: inherit;
+    border: none;
+    font-weight: bold;
+}
+.log{
+    border: 5px solid white;
+    color: black;
+    background-color: white;
+    border-radius: 19px;
+    font-weight: bold;
+    
+}
+.heading{
+    gap: 17px;
+    display: flex;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    font: caption;
+    
+}
+.heading img{
+    width: 18px;
+
+}
+.nav{
+    
+    width: 70vw;
+}
+.body{
+    background-color: black;
+    color: white;
+}
+.library{
+    min-height: 435px;
+    position: relative;
+}
+.footer{
+    display: flex;
+    color: gray;
+    gap: 10px;
+    position: absolute;
+    bottom: 7px;
+    left: 10px;
+    
+}
+.footer h4{
+    font-size: 10px;
+}
+
+.container{
+    background: black;
+    height: 80rem;
+}
+.right-footer{
+    display: flex;
+    
+}
+.company{
+    font-weight: bold;
+    
+}
+.element{
+    font-weight: bold;
+    
+    color: gray;
+    margin-top: 20px;
+
+}
+.footer-1{
+    font-size: 10px;
+    position: relative;
+    top: 150px;
+    left: 18px;
+}
+.footer-2{
+    position: relative;
+    top: 150px;
+    left: 90px;
+}
+.footer-3{
+    position: relative;
+    top: 150px;
+    left: 162px;
+}
+.footer-4{
+    position: relative;
+    top: 150px;
+    left: 450px;
+
+}
+
+.line{
+    position: relative;
+    top: 200px;
+    color: rgba(128, 128, 128, 0.363);
+}
+.sicon{
+    position: relative;
+    bottom: 200px;
+    left: 20px;
+}
